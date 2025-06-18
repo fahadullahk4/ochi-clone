@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Founders Grotesk";
+    src: url("./assets/fonts/FOUNDERSGROTESK-REGULAR.OTF");
+    font-weight: 400;
+}
