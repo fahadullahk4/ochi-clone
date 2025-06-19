@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
 import Marquee from "./components/Marquee";
-import { motion } from "motion/react";
+import About from "./components/About";
+import EyesSection from "./components/EyesSection";
 
 const App = () => {
 	return (
@@ -10,6 +11,8 @@ const App = () => {
 			<Navbar />
 			<LandingPage />
 			<Marquee />
+			<About />
+			<EyesSection/>
 		</div>
 	);
 };

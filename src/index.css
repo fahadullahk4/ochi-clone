@@ -5,3 +5,9 @@
     src: url("./assets/fonts/FOUNDERSGROTESK-REGULAR.OTF");
     font-weight: 400;
 }
+
+@font-face {
+    font-family: "Neue Montereal";
+    src: url("./assets/fonts/NeueMontreal-Regular.ttf");
+    font-weight: 400;
+}

@@ -4,17 +4,17 @@ import { FaArrowUp } from "react-icons/fa6";
 const LandingPage = () => {
 	return (
 		<div className="w-full h-screen bg-zinc-900 pt-1">
-			<div className="leftText mt-35 px-20">
+			<div className="leftText mt-37 px-20">
 				{["We Create", "Eye-Opening", "Presentations"].map((item, index) => {
 					return (
 						<div className="masker">
 							<div className="w-fit flex">
 								{index === 1 && (
-									<div className="w-[7.7vw] h-[5vw] bg-red-500 relative top-[1.2vw] mr-[1vw] rounded-md"></div>
+									<div className="w-[7.7vw] h-[5vw] bg-red-500 relative -top-[0.4vw] mr-[1vw] rounded-md"></div>
 								)}
 								<h1
 									className="uppercase tracking-tight leading-[6.57vw] 
-								text-[6.5vw] font-['Founders_Grotesk_X-Condensed'] font-bold">
+								text-[6.5vw] font-['Founders_Grotesk'] font-bold">
 									{item}
 								</h1>
 							</div>
@@ -22,7 +22,7 @@ const LandingPage = () => {
 					);
 				})}
 			</div>
-			<div className="border-t-[1px] mt-18 border-zinc-700 flex justify-between items-center py-5 px-20 ">
+			<div className="border-t-[1px] mt-18 border-zinc-700 flex justify-between items-center py-5 px-20 font-['Neue_Montereal']">
 				{["For public to private companies", "From the first pitch to IPO"].map(
 					(item, index) => (
 						<p className="text-md font-light tracking-tight leading-none">
