@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
 	return (
-		<div className='w-full p-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-black font-["Neue_Montereal"]'>
+		<div data-scroll data-scroll-section data-scroll-speed="-.2" className='w-full p-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-black font-["Neue_Montereal"]'>
 			<h1 className="text-[3.9vw] leading-[4.1vw] tracking-tight">
 				Ochi is a strategic presentation agency for forward-thinking businesses
 				that need to raise funds, sell products, explain complex ideas, and hire
@@ -15,7 +15,12 @@ const About = () => {
 						Read more <div className="size-[0.5vw] bg-white rounded-full"></div>
 					</button>
 				</div>
-				<div className="w-1/2 h-[70vh] bg-[#859b36] rounded-2xl"></div>
+				<div className="w-1/2 h-[70vh]">
+					<img className="size-full object-cover rounded-2xl"
+						src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-1326x939.jpg"
+						alt=""
+					/>
+				</div>
 			</div>
 		</div>
 	);

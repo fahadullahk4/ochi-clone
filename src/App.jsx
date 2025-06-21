@@ -6,8 +6,15 @@ import About from "./components/About";
 import EyesSection from "./components/EyesSection";
 import Featured from "./components/Featured";
 import Cards from "./components/Cards";
+import Footer from "./components/Footer";
+import LocomotiveScroll from "locomotive-scroll";
+
+
 
 const App = () => {
+	
+	const locomotiveScroll = new LocomotiveScroll();
+
 	return (
 		<div className="w-full min-h-screen">
 			<Navbar />
@@ -16,7 +23,8 @@ const App = () => {
 			<About />
 			<EyesSection />
 			<Featured />
-			<Cards /> 
+			<Cards />
+			<Footer />
 		</div>
 	);
 };

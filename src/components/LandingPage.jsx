@@ -1,16 +1,26 @@
-import React from "react";
+import { motion } from "framer-motion";
 import { FaArrowUp } from "react-icons/fa6";
 
 const LandingPage = () => {
 	return (
-		<div className="w-full h-screen pt-1">
+		<div data-scroll data-scroll-section data-scroll-speed="-.3" className="w-full h-screen pt-1">
 			<div className="leftText mt-37 px-20">
 				{["We Create", "Eye-Opening", "Presentations"].map((item, index) => {
 					return (
 						<div className="masker">
 							<div className="w-fit flex">
 								{index === 1 && (
-									<div className="w-[7.7vw] h-[5vw] bg-red-500 relative -top-[0.4vw] mr-[1vw] rounded-md"></div>
+									<motion.div
+										initial={{ width: 0 }}
+										animate={{ width: "7.7vw" }}
+										transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
+										className="w-[7.7vw] h-[5vw] relative -top-[0.4vw] mr-[1vw]">
+										<img
+											className="size-full rounded-md"
+											src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg"
+											alt=""
+										/>
+									</motion.div>
 								)}
 								<h1
 									className="uppercase tracking-tight leading-[6.57vw] 

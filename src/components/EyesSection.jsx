@@ -19,7 +19,10 @@ const EyesSection = () => {
 
 	return (
 		<div className="eyes w-full h-screen overflow-hidden">
-			<div className="relative img size-full bg-end bg-cover bg-[url(https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg)]">
+			<div
+				data-scroll
+				data-scroll-speed="-.9"
+				className="relative img size-full bg-end bg-cover bg-[url(https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg)]">
 				<div className="absolute mt-[5vw] top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] size-2/4 flex justify-center gap-10">
 					<div className="outerWhite flex justify-center items-center size-[15vw] rounded-full bg-zinc-100">
 						<div className="relative blackLayer flex items-center justify-center size-[10vw] bg-zinc-900 rounded-full">
