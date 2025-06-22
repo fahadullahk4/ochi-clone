@@ -9,8 +9,6 @@ import Cards from "./components/Cards";
 import Footer from "./components/Footer";
 import LocomotiveScroll from "locomotive-scroll";
 
-
-
 const App = () => {
 	
 	const locomotiveScroll = new LocomotiveScroll();

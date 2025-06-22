@@ -1,8 +1,6 @@
-import React from "react";
-
 const Navbar = () => {
 	return (
-		<div className="fixed z-[900] w-full px-20 py-8 font-['Neue_Montereal'] flex items-center justify-between bg-transparent">
+		<div className="fixed z-[900] w-full px-20 py-8 font-['Neue_Montereal'] flex items-center justify-between bg-transparent backdrop-blur-md">
 			<div className="logo">
 				<svg
 					width="72"
@@ -27,7 +25,7 @@ const Navbar = () => {
 						fill="currentColor"></path>
 				</svg>
 			</div>
-			<div className="links flex gap-10">
+			<div className="links flex gap-10 ">
 				{["Services", "Our Work", "About Us", "Insights", "Contact Us"].map(
 					(item, index) => (
 						<a
